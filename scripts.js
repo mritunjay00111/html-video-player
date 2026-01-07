@@ -56,3 +56,16 @@ progress.addEventListener('click',(e)=>{
 // progress.addEventListener('mousedown',(e)=>{ handleScrub(e);});
 // // progress.addEventListener('mousedown',()=>{mousedown = true;});
 // // progress.addEventListener('mouseup',()=>{mousedown = false});
+// added fullscreen feature 
+const fullscreenBtn = player.querySelector('.fullscreen');
+
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    player.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+}
+
+fullscreenBtn.addEventListener('click', toggleFullscreen);
+
