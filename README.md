@@ -12,6 +12,7 @@ This project demonstrates how to create your own video controls instead of relyi
 - 📊 Interactive progress bar with scrubbing
 - 🖥️ Fullscreen responsive layout
 - 🎨 Modern UI with custom styling
+- ⛶ Supports fullscreen mode using the Fullscreen API
 
 ## 📂 Project Structure
 
